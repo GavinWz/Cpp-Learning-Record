@@ -363,7 +363,7 @@ ClassName p2(10, 20, 30);
   常对象：
   * 声明前加const修饰该对象为常对象
     ```cpp
-    const ClassName p;x 
+    const ClassName p;
     ``` 
   * 常对象的属性值不允许被修改
   * 常对象只能调用常函数
@@ -394,7 +394,7 @@ ClassName p2(10, 20, 30);
       friend void FriendClass::friend_func();
       ...
     }
-    ``` 
+    ```
     将类的成员函数声明放在另一个类的定义中
 
 ## 运算符重载
